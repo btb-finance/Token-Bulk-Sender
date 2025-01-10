@@ -9,3 +9,30 @@ coverage/
 .idea/
 op.csv
 larry_holders.json
+
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug files
+*.dbg.json
+
+# Compiler files
+*.swp
+*.swo
+*~
+
+# Test files
+coverage.json
+coverage/
